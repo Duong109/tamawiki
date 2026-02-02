@@ -9,7 +9,7 @@ export const DATA = [
       <div class="tip">
         <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
         <div class="tip-box">
-          Pretty good for traveling. I use this one a lot before Relic 1.0
+          Pretty good for traveling. I use this one a lot before Relic 2.0
         </div>
       </div>
 
