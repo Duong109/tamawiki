@@ -1,5 +1,6 @@
 export const DATA = [
   {
+    /*LAYER 1*/
     name: "Beniguma",
     imga: "mob_png/beniguma2d.png",
     imgb: "mob_gif/beniguma.gif",
@@ -203,6 +204,7 @@ export const DATA = [
     ],
     extra: "Tip1"
   },
+  /*LAYER 2*/
   {
     name: "Billabonk",
     imga: "mob_png/billabonk2d.png",
@@ -319,7 +321,7 @@ export const DATA = [
     name: "Ikenosuke",
     imga: "mob_png/ikenosuke2d.png",
     imgb: "mob_gif/ikenosuke.gif",
-    description: " The Ikenosuke is fish that can be found in small lake in l2. Instead of scales, it has tough, white skin. The taste of its meat has a slight, sweet flavor.<br> <br> Found in Layer 2",
+    description: " The Ikenosuke is fish that can be found in small lake in l2. Instead of scales, it has tough, white skin. The taste of its meat has a slight, sweet flavor.<br> <br> Found in Layer 2 & 3",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -446,7 +448,7 @@ export const DATA = [
     ],
     extra: "Tip1"
   },
-    {
+  {
     name: "Woodcrier",
     imga: "mob_png/woodcrier2d.png",
     imgb: "mob_gif/woodcrier.png",
@@ -456,6 +458,217 @@ export const DATA = [
     drops: [
       { src: "icondrop/woodcrier_horn.png", href: "../relic.html?item=woodcrier_horn", alt: "Woodcrier Horn" },
       {src: "icondrop/brown_wool.png", alt: "Brown Wool" },
+    ],
+    extra: "Tip1"
+  },
+  /*LAYER 2 (INVERTED FOREST)*/
+  {
+    name: "Billabonk",
+    imga: "mob_png/billabonk2d.png",
+    imgb: "mob_gif/billabonk.gif",
+    description: " The Billabonk is a small, frog-like creature lives in rainforest in the edge of l2 . <br> <br> Found in Layer 2 ",
+    grade: "",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw_billabonk_leg.png", href: "../relic.html?item=billabonk_leg", alt: "Billabonk Leg" },
+      {src: "icondrop/lily_pad.png", alt: "Lily Pad" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Hisoishi",
+    imga: "mob_png/hisoishi2d.png",
+    imgb: "mob_gif/hisoishi.gif",
+    description: " The crab-like creature that live in a herd. Their shell is a important material for the ghostseeker that able to tunned the lingering souls around the Abyss  <br> <br> Found in Layer 2 ( Inverted Forest ) & 3",
+    grade: "",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw_billabonk_leg.png", href: "../relic.html?item=billabonk_leg", alt: "Billabonk Leg" },
+      {src: "icondrop/lily_pad.png", alt: "Lily Pad" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Ikenosuke",
+    imga: "mob_png/ikenosuke2d.png",
+    imgb: "mob_gif/ikenosuke.gif",
+    description: " The Ikenosuke is fish that can be found in small lake in l2. Instead of scales, it has tough, white skin. The taste of its meat has a slight, sweet flavor.<br> <br> Found in Layer 2",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Inbyo",
+    imga: "mob_png/inbyoe2d.png",
+    imgb: "mob_gif/inbyo.gif",
+    description: " The Inbyo is primate creature. Their skillful hand let them climb, throw with their sharp claws make them actual dangerous threat in Layer 2 <br> <br> Found in Layer 2 (Inverted Tree)",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Neritantan",
+    imga: "mob_png/neritantan2d.png",
+    imgb: "mob_gif/neritantan.gif",
+    description: " The Neritantan is a creature live around Inverted Forest and Layer 3 grass area. Their primary diet consists of Baracocha fruits. Presumably because of this, their meat is described as very delicious, which makes them suitable for a wide range of dishes. <br> <br> Found in Layer 2 (Inverted Tree) & 3",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Rockwalker",
+    imga: "mob_png/rockwalker2d.png",
+    imgb: "mob_gif/rockwalker.gif",
+    description: " The Rockwalker is an bug live around Inverted Forest and Layer 3 caves. Their shell evolve that even harder than rock to protect themselve from other threat <br> <br> Found in Layer 2 (Inverted Tree) & 3",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Rohana",
+    imga: "mob_png/rohana2d.png",
+    imgb: "mob_gif/rohana.gif",
+    description: " The Rohana is a bug live in clean water area in Layer 2 and 4. These guys powder and tail can be use to make an elixir which is increase the user strength<br> <br> Found in Layer 2",
+    grade: "",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
+      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Stinger",
+    imga: "mob_png/stinger2d.png",
+    imgb: "mob_gif/stinger.gif",
+    description: " The Stinger is a common bug, live around L2 to L5. Their stings are poisonous <br> <br> Found in Layer 2 & 4 & 5",
+    grade: "",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
+      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    ],
+    extra: "Tip1"
+  },
+  /*LAYER 3*/
+  {
+    name: "Buroguro",
+    imga: "mob_png/buroguro2d.png",
+    imgb: "mob_gif/burogoro.gif",
+    description: " The Buroguro is a firefly-like creature, which produce light in layer 3 caves. Be careful, their stinger contains various of dangerous poison<br> <br> Found in Layer 3",
+    grade: "",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
+      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Daikonchu",
+    imga: "mob_png/daikonchu2d.png",
+    imgb: "mob_gif/daikonchu.gif",
+    description: " The Daikonchu is bee-like creature. Live in the cave too long, their eyes grow bigger to capture every light in the cave. These bug pretty chill, only aggresive if you hit them first. There is a myth that delver use their wings and carapaces to make armor. <br> <br> Found in Layer 3",
+    grade: "",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
+      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Dosetori",
+    imga: "mob_png/dosetori2d.png",
+    imgb: "mob_gif/dosetori.gif",
+    description: " The Dosetori is a avian creature that live in grass area in Layer 2 and 3. These bad guy have big and sturdy wings. There is a myth that delver use their wings to make leather-like armor. <br> <br> Found in Layer 2",
+    grade: "★★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw_dosetori_meat.png", href: "../relic.html?item=dosetori_meat", alt: "Dosetori Meat" },
+      { src: "icondrop/dosetori_wing.png", href: "../relic.html?item=dosetori_wing", alt: "Dosetori Wing" },
+      { src: "icondrop/dosetori_bone.png", href: "../relic.html?item=dosetori_bone", alt: "Dosetori Bone" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Himushi",
+    imga: "mob_png/himushi2d.png",
+    imgb: "mob_gif/himushi.gif",
+    description: " The Himushi is a snail-like creature. Their skin evolve to handle the heat in magma cave. They also store magma on their back, those can be shoot out when they in danger <br> <br> Found in Layer 3",
+    grade: "",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
+      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Hisoishi",
+    imga: "mob_png/hisoishi2d.png",
+    imgb: "mob_gif/hisoishi.gif",
+    description: " The crab-like creature that live in a herd. Their shell is a important material for the ghostseeker that able to tunned the lingering souls around the Abyss  <br> <br> Found in Layer 2 ( Inverted Forest ) & 3",
+    grade: "",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw_billabonk_leg.png", href: "../relic.html?item=billabonk_leg", alt: "Billabonk Leg" },
+      {src: "icondrop/lily_pad.png", alt: "Lily Pad" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Ikenosuke",
+    imga: "mob_png/ikenosuke2d.png",
+    imgb: "mob_gif/ikenosuke.gif",
+    description: " The Ikenosuke is fish that can be found in small lake in l2. Instead of scales, it has tough, white skin. The taste of its meat has a slight, sweet flavor.<br> <br> Found in Layer 2 & 3",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Kakatsumuri",
+    imga: "mob_png/kakatsumuri2d.png",
+    imgb: "mob_gif/kakatsumuri.gif",
+    description: " The Kakatsumuri is a snail-like creature. They are super small and hard to find out. Their tip also is a really important to craft the ghostseeker<br> <br> Found in Layer 3",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Madokajack",
+    imga: "mob_png/madokajack2d.png",
+    imgb: "mob_gif/madokajack.gif",
+    description: " The Madokajack is an flying creature that quite annoying. They hang them around the wall of layer 3. Often drop poop when killed<br> <br> Found in Layer 2 & 3",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
     ],
     extra: "Tip1"
   },
