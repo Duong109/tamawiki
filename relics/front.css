@@ -298,7 +298,7 @@ button{
 .search-results li:hover{
   background:rgba(90,70,50,0.06);
 }
-/* Tip container */
+/* === Tip container === */
 .tip{
   display: flex;
   align-items: flex-start;
@@ -306,7 +306,7 @@ button{
   margin-bottom: 30px;
 }
 
-/* Avatar image */
+/* === Avatar image === */
 .tip-avatar{
   width: 120px;
   height: 120px;
@@ -314,7 +314,7 @@ button{
   flex-shrink: 0;
 }
 
-/* Speech bubble */
+/* === Speech bubble === */
 .tip-box{
   position: relative;
   background: #fff;
@@ -330,7 +330,7 @@ button{
   margin-left: 15px; }
 
 
-/* Speech bubble tail  */
+/* === Speech bubble tail (points to avatar) === */
 .tip-box::before{
   content: "";
   position: absolute;
