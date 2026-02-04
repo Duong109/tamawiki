@@ -16,7 +16,13 @@ export const DATA = [
       <div class="tip">
         <img class="tip-avatar" src="avatar/block_oc.png" alt="Tip avatar">
         <div class="tip-box">
-          Im a frog.
+          After equipping it to one of your passive slots, you will get two speed boosts every 30 seconds.<br>
+          The first one grants you Speed II for 3 seconds, and the second one Speed I for 5 seconds.<br>
+          The second speed boost will always happen 10 seconds after the first one.<br>
+          Neither dropping the item nor dying will prevent that from happening.<br>
+          Since the 30-second timer is independent and doesnt start from the moment you equip it,<br>
+          the sudden pinch effect cant be stacked by putting a sudden pinch in both of your passive slots.<br>
+          (This is the best Relic in the game)
         </div>
       </div>
     `
