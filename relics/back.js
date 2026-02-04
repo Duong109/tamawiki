@@ -1,4 +1,5 @@
 import { DATA } from "./data.js";
+import { emote } from "../emoji.js";
 
 let index = 0;
 
@@ -28,9 +29,9 @@ function render() {
   div1.textContent = d.name || "";
   div4.textContent = d.grade || "";
 
-  div3.innerHTML = d.description || "";
-  div5.innerHTML = d.details || "";
-  div6.innerHTML = d.extra || "";
+  div3.innerHTML = emote(d.description || "");
+  div5.innerHTML = emote(d.details || "");
+  div6.innerHTML = emote(d.extra || "");
 
   // Images: use "imga" and "imgb" from data; hide if placeholder or missing
   function setImg(el, src, altSuffix) {

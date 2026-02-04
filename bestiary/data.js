@@ -1,7 +1,3 @@
-import { emote } from "./emote.js";
-
-element.innerHTML = emote(tip.text);
-
 export const DATA = [
   {
     /*LAYER 1*/
@@ -15,7 +11,14 @@ export const DATA = [
       { src: "icondrop/beniguma_fur.png", href: "../relic.html?item=beniguma_fur", alt: "Beniguma Fur" },
       { src: "icondrop/sweet_berries.png", alt: "Sweet Berries" }   
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Fluffy :mogicrazy:.
+        </div>
+      </div>
+    `
   },
   {
     name: "Cyatoria",

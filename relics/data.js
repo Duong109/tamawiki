@@ -1,7 +1,3 @@
-import { emote } from "./emote.js";
-
-element.innerHTML = emote(tip.text);
-
 export const DATA = [
   {
     name: "Sudden Pinch",
@@ -13,7 +9,7 @@ export const DATA = [
       <div class="tip">
         <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
-          Pretty good for traveling. I use this one a lot before Relic 2.0
+          Pretty good for traveling. I use this one a lot before Relic 2.0 :tuh:.
         </div>
       </div>
 
