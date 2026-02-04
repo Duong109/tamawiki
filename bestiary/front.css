@@ -379,3 +379,58 @@ button{
 .search-results li:hover{
   background:rgba(90,70,50,0.06);
 }
+/* === Tip container === */
+.tip{
+  display: flex;
+  align-items: flex-start;
+  gap: 14x;
+  margin-bottom: 30px;
+}
+
+/* === Avatar image === */
+.tip-avatar{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* === Speech bubble === */
+.tip-box{
+  position: relative;
+  background: #fff;
+  color: #000;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 2px solid #000;
+  font-size: 16px;
+  line-height: 1.2;
+  max-width: 100%;
+  box-sizing: border-box;
+
+  margin-left: 15px; }
+
+
+/* === Speech bubble tail (points to avatar) === */
+.tip-box::before{
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  border-width: 6px 10px 6px 0;
+  border-style: solid;
+  border-color: transparent #000 transparent transparent;
+}
+
+.tip-box::after{
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 11px;
+  border-width: 5px 9px 5px 0;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+}
+.emote {
+  vertical-align: middle;
+}

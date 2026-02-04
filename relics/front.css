@@ -350,4 +350,7 @@ button{
   border-style: solid;
   border-color: transparent #fff transparent transparent;
 }
+.emote {
+  vertical-align: middle;
+}
 

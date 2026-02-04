@@ -1,3 +1,7 @@
+import { emote } from "./emote.js";
+
+element.innerHTML = emote(tip.text);
+
 export const DATA = [
   {
     /*LAYER 1*/
