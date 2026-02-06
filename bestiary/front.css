@@ -435,16 +435,23 @@ button{
   vertical-align: middle;
 }
 
+#mark{
+  position: fixed;
+  bottom: -115px;
+  right: -70px;
+  scale: 0.42;
+}
+
 #go_back {
   position: fixed;
-  bottom: 70px;
-  right: 20px;
+  bottom: 60px;
+  right: 35px;
   z-index: 1000;
-  transition: 0.2s;
+  transition: transform 0.2s ease;
 }
 
 #go_back img {
-  width: 120px;
+  width: 145px;
   vertical-align: middle;
 
 }
