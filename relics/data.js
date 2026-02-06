@@ -331,7 +331,7 @@ export const DATA = [
         </div>
       </div>
       <div class="tip">
-        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="avatar/cry_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           This one is best for assasin sur. I swear i got trauma every time i saw end rod particale
         </div>
