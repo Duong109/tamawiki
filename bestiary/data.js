@@ -15,7 +15,7 @@ export const DATA = [
       <div class="tip">
         <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
-          Fluffy :mogicrazy:.
+          Fluffy Fox :mogicrazy:.
         </div>
       </div>
     `
