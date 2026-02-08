@@ -113,6 +113,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 
 .abyss img:hover {
   filter: drop-shadow(0 0 15px rgba(211, 197, 7, 0.8));
+  -webkit-mask-image: radial-gradient(circle at center, black 80%, transparent 100%); /* Shadow test , might get deleted since its broken*/
 }
 
 .changeLog {
