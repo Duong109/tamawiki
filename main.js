@@ -1,4 +1,5 @@
 const layers = [
+    document.getElementById('orth'),
     document.getElementById('l1'),
     document.getElementById('l2'),
     document.getElementById('l3'),

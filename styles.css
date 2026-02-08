@@ -111,9 +111,16 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
   display: block;
 }
 
+.abyss a img {
+  transition:
+    transform 0.4s ease,
+    opacity 0.2s ease;
+}
+
 .abyss img:hover {
   filter: drop-shadow(0 0 15px rgba(211, 197, 7, 0.8));
-  -webkit-mask-image: radial-gradient(circle at center, black 80%, transparent 100%); /* Shadow test , might get deleted since its broken*/
+  -webkit-mask-image: radial-gradient(circle at center, black 80%, transparent 100%); 
+  /* Shadow test , might get deleted since its broken*/
 }
 
 .changeLog {
@@ -148,4 +155,48 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
   justify-content: center;
   align-items: center;
   font-size: 24px;
+}
+
+.abyss a {
+  position: relative;
+}
+
+.abyss a img.hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.abyss a:hover img.normal {
+  opacity: 0;
+}
+
+.abyss a:hover img.hover {
+  opacity: 1;
+}
+
+@font-face {
+  font-family: 'abyssfont';
+  src: url('fonts/playhouse-medium.woff') format('woff');
+}
+
+.layer-title {
+  font-family: 'abyssfont';
+  position: absolute;
+  top: 10px;         
+  left: 50%;
+  z-index: 5; 
+  transform: translateX(-50%);
+  font-size: 36px;
+  color: #000;
+  text-shadow: 0 0 6px rgba(0,0,0,0.8);
+  pointer-events: none;    
+  white-space: nowrap;
+}
+
+.abyss a:hover .layer-title {
+  color: #fff7a8;
+  text-shadow: 0 0 10px rgba(255, 240, 120, 0.9);
 }
