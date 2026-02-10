@@ -58,6 +58,12 @@ export const DATA = [
           I cant find a reason to use this one.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Sell these for newbies, absoblute scamba.
+        </div>
+      </div>
     `
   },
   {
@@ -74,6 +80,12 @@ export const DATA = [
           You can use this one for tree farming, by place a lot saplings near ya, it can speed up the process and save you a lot bone meal
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Keep mistaking this for that Cradle from layer 6.
+        </div>
+      </div>
     `
   },
   {
@@ -88,6 +100,12 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
         <div class="tip-box">
           Decent dmg for early game, thats all i guess?
+        </div>
+      </div>
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Holy powerful, you can one shot that ugly spoodo thingy that shoot out sticky string from it's butthole.
         </div>
       </div>
     `
@@ -170,6 +188,13 @@ export const DATA = [
           Was even better in the past :thinking:. Got nerfed, still good but i mean not that good :shrug:
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Grant a full bubble bar if you're choking.
+        </div>
+      </div>
     `
   },
   {
@@ -186,6 +211,13 @@ export const DATA = [
           You can use it to show your cool relic name by use it and /kms right after
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Wiht enough practice, infinite speed combo combined with other relics.
+        </div>
+      </div>
     `
   },
     {
@@ -200,6 +232,12 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
         <div class="tip-box">
           This one is annoying 
+        </div>
+      </div>
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Trap yourself in a hole and go wild.
         </div>
       </div>
     `
@@ -234,6 +272,12 @@ export const DATA = [
           I have some idea with it, like combine it with ball lightning or weight of the world, but never try.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          After use, stare down at each other for dramatic effect.
+        </div>
+      </div>
     `
   },
   {
@@ -248,6 +292,12 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
         <div class="tip-box">
           You can use it to charge ur Yūkonokage.
+        </div>
+      </div>
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Wan a sushi?
         </div>
       </div>
     `
@@ -282,6 +332,13 @@ export const DATA = [
           Uhh, i never found it but i guess it would be really good in some place in l5 and l4 right? 
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Sound good on paper but really doodoo when you realised the entire place is filled with random blocks.
+        </div>
+      </div>
     `
   },
   {
@@ -298,6 +355,12 @@ export const DATA = [
           Combine it with weight of the world or just buy you another dash. 
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Be careful of the curses.
+        </div>
+      </div>
     `
   },
   {
@@ -312,6 +375,12 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
         <div class="tip-box">
           Good relic, i recommend you guy to find it in early game since 2 heart is a lot. 
+        </div>
+      </div>
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Wonder how are your legs doing after using it.
         </div>
       </div>
     `
@@ -350,6 +419,13 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Wata Breathing withno downside?, take my money!
+        </div>
+      </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          You're a fihh.
         </div>
       </div>
     `
@@ -416,6 +492,13 @@ export const DATA = [
           What can i say, best passive healing relic of all time!
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I heard someone tried selling 30 of these at the last auction.
+        </div>
+      </div>
     `
   },
   {
@@ -464,6 +547,13 @@ export const DATA = [
           May be can combine with slow or stun relic
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          The lightning ball don't damage you, so you can probably hide in them to heal or charge up attacks.
+        </div>
+      </div>
     `
   },
   {
@@ -480,6 +570,13 @@ export const DATA = [
           I dont think this one really good. The dmg is huge but really hard to pull this out.
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Watch above your head.
+        </div>
+      </div>
     `
   },
   {
@@ -494,6 +591,13 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Good one. Deal a lot dmg.
+        </div>
+      </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Blockgirl said this look like a dog penis (maybe).
         </div>
       </div>
     `
@@ -526,6 +630,13 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           I dont have it. But from my perspective, this one is not that good.
+        </div>
+      </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Domain expansion: Explosive white balls.
         </div>
       </div>
     `
@@ -616,8 +727,15 @@ export const DATA = [
     imgb: "Placeholder4.1",
     description: "This Relic easily and effectively slices through the air, and even the Abyss itself, using its surroundings’ mysterious nature to its advantage.<br><br>Layer 3",
     grade: "Grade 1",
-    details: "Active ability. Creates charges on right click.Takes increasing amounts of charges to create a slash of varying strength on left click.",
-    extra: "Tip4"
+    details: "Active ability. Creates charges on right click. Takes increasing amounts of charges to create a slash of varying strength on left click.",
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Not that great in pvp, but really good when fighting bosses.
+        </div>
+      </div>
+    `
   },
   {
     name: "Necrometallic Sledge",
@@ -626,7 +744,14 @@ export const DATA = [
     description: "The bacteria inside the head of this hammer is so densely populated that it leaves a visible cloud when released.<br><br>Layer 3",
     grade: "Grade 1",
     details: "Active ability. Lunges the user upward on right click followed by a large impact which poisons the surroundings. Inflicts a poison like effect on the target on left click.",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Here's a trick, use the hammer and left click once, then quick swap to other tool you want to use, the poison damage will lingers for many seconds.
+        </div>
+      </div>
+    `
   },
   {
     name: "Blaze Reap",
@@ -635,7 +760,14 @@ export const DATA = [
     description: "Contain Everlasting Gunpowder, which causes ongoing explosion on whatever it struck on.<br><br>Layer 4",
     grade: "Grade 1",
     details: "On right click, charge Everlasting Gunpowder. Left click when fully charged creates a huge explosion and deals AOE damage",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Really good for mining, but the explosion kinda weak.
+        </div>
+      </div>
+    `
   },
   {
     name: "Reverberating Edge",
@@ -653,7 +785,14 @@ export const DATA = [
     description: "A spear-shaped object carved out of the core from a Goblet of Giants containing netherworld runes.<br><br>Layer 4",
     grade: "Grade 1",
     details: "Throw the trident in a straight line on left click, uses riptide in water on right click<br>CD: 22s",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Swimming in layer 5 without this is torture.
+        </div>
+      </div>
+    `
   },
   {
     name: "Yūkonokage",
