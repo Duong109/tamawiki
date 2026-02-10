@@ -600,6 +600,13 @@ export const DATA = [
           Blockgirl said this look like a dog penis (maybe).
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/block_oc.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          This shit look like a dog penis
+        </div>
+      </div>
     `
   },
   {
