@@ -31,7 +31,14 @@ export const DATA = [
       { src: "icondrop/raw_cyatoria_drumstick.png", href: "../relic.html?item=cyatoria_drumstick", alt: "Cyatoria Drumstick" },
       { src: "icondrop/cyatoria_feather.png", href: "../relic.html?item=cyatoria_feather", alt: "Cyatoria Feather" }
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          They were a lot bigger.
+        </div>
+      </div>
+    `
   },
   {
     name: "Fuwagi",
@@ -45,7 +52,14 @@ export const DATA = [
       { src: "icondrop/fuwagi_foot.png", href: "../relic.html?item=fuwagi_foot", alt: "Fuwagi Foot" },
       { src: "icondrop/fuwagi_hide.png", href: "../relic.html?item=fuwagi_hide", alt: "Fuwagi Hide" }
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          They taste like Nanachi.
+        </div>
+      </div>
+    `
   },
   {
     name: "Small Hammerbeak",
@@ -59,7 +73,14 @@ export const DATA = [
       { src: "icondrop/hammerbeak_beak.png", href: "../relic.html?item=hammerbeak_beak", alt: "Hammerbeak Beak" },
       { src: "icondrop/raw_hammerbeak_wing.png", href: "../relic.html?item=hammerbeak_wing", alt: "Hammerbeak Wing" }
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Bird missiles alert alert!!!
+        </div>
+      </div>
+    `
   },
   {
     name: "Giant Hammerbeak",
@@ -76,7 +97,14 @@ export const DATA = [
       { src: "icondrop/hammerbeak_egg.png", href: "../relic.html?item=hammerbeak_egg", alt: "Hammerbeak Egg" },
       { src: "icondrop/raw_hammerbeak_wing.png", href: "../relic.html?item=hammerbeak_wing", alt: "Hammerbeak Wing" }
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          On the scale of 1 to 10 based on their annoyance, they can go /kms themselves.
+        </div>
+      </div>
+    `
   },
   {
     name: "Man-toyer",
@@ -90,7 +118,14 @@ export const DATA = [
       { src: "icondrop/mantoyer_horn.png", href: "../relic.html?item=mantoyer_horn", alt: "Man-toyer Horn" },
       { src: "icondrop/sweet_berries.png", alt: "Sweet Berries" }
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          They love to play with your dih. 
+        </div>
+      </div>
+    `
   },
   {
     name: "Okibo",
@@ -103,7 +138,14 @@ export const DATA = [
       { src: "icondrop/okibo_fur.png", href: "../relic.html?item=okibo_fur", alt: "Okibo Fur" },
       { src: "icondrop/raw_okibo_meat.png", href: "../relic.html?item=okibo_meat", alt: "Okibo Meat" }
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Cutieeeeeee
+        </div>
+      </div>
+    `
   },
   {
     name: "Silkfang",
@@ -117,7 +159,14 @@ export const DATA = [
       { src: "icondrop/silkfang_eye.png", href: "../relic.html?item=silkfang_eye", alt: "Silkfang Eye" },
       { src: "icondrop/bundle_silkfang_silk.png", href: "../relic.html?item=silkfang_bundle", alt: "Bundle of silkfang silk" }
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Ugly spoodo thingy that shoot out sticky string from it's butthole.
+        </div>
+      </div>
+    `
   },
   {
     name: "Spiralsquid",
@@ -130,7 +179,14 @@ export const DATA = [
       { src: "icondrop/raw_spiralsquid.png", href: "../relic.html?item=spiralsquid_meat", alt: "Raw Spiralsquid" },
       { src: "icondrop/ink_sac.png", alt: "Ink Sac" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Don't use them for the sucky sucky. 
+        </div>
+      </div>
+    `
   },
   {
     name: "Spittleshrub",
@@ -144,7 +200,14 @@ export const DATA = [
       { src: "icondrop/spittleshrub_root.png", href: "../relic.html?item=spittleshrub_root", alt: "Spittleshrub Root" },
       { src: "icondrop/glow_berries.png", alt: "Glow Berries" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+           You can use your tridents and poke them through the ground.
+        </div>
+      </div>
+    `
   },
   {
     name: "Splitjaw",
@@ -160,7 +223,14 @@ export const DATA = [
       { src: "icondrop/emerald.png", alt: "Emerald" },
       { src: "icondrop/gold_ingot.png", alt: "Gold Ingot" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Just hide in a hole, they're not that smart. 
+        </div>
+      </div>
+    `
   },
   {
     name: "Vinebinder",
@@ -184,7 +254,14 @@ export const DATA = [
     drops: [
       { src: "icondrop/plant_matter.png", href: "../relic.html?item=plant_matter", alt: "Plant Matter" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Plants vs zombies.
+        </div>
+      </div>
+    `
   },
   {
     name: "Vinepoofer",
@@ -196,7 +273,14 @@ export const DATA = [
     drops: [
       { src: "icondrop/plant_matter.png", href: "../relic.html?item=plant_matter", alt: "Plant Matter" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Vineboom!
+        </div>
+      </div>
+    `
   },
   {
     name: "Woodcrier",
@@ -209,7 +293,14 @@ export const DATA = [
       { src: "icondrop/woodcrier_horn.png", href: "../relic.html?item=woodcrier_horn", alt: "Woodcrier Horn" },
       {src: "icondrop/brown_wool.png", alt: "Brown Wool" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Sneaky sneaky.
+        </div>
+      </div>
+    `
   },
   /*LAYER 2*/
   {
@@ -223,7 +314,14 @@ export const DATA = [
       { src: "icondrop/raw_billabonk_leg.png", href: "../relic.html?item=billabonk_leg", alt: "Billabonk Leg" },
       {src: "icondrop/lily_pad.png", alt: "Lily Pad" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Don't let a French see them.
+        </div>
+      </div>
+    `
   },
   {
     name: "Chimokami",
@@ -236,7 +334,14 @@ export const DATA = [
       { src: "icondrop/chimokami_fang.png", href: "../relic.html?item=chimokami_fang", alt: "Chimokami Fang" },
       {src: "icondrop/chimokami_tail.png",  href: "../relic.html?item=chimokami_tail", alt: "Chimokami Tail" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Literally a Kitsune.
+        </div>
+      </div>
+    `
   },
   {
     name: "Corpse-Weeper",
@@ -250,7 +355,14 @@ export const DATA = [
       { src: "icondrop/corpse_weeper_eye.png", href: "../relic.html?item=corpse_weeper_eye", alt: "Corpse-Weeper Eye" },
       { src: "icondrop/corpse_weeper_feather.png", href: "../relic.html?item=corpse_weeper_feather", alt: "Corpse-Weeper Feather" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Creepy parrots.
+        </div>
+      </div>
+    `
   },
   {
     name: "Cyatoria",
@@ -277,7 +389,14 @@ export const DATA = [
       { src: "icondrop/dosetori_wing.png", href: "../relic.html?item=dosetori_wing", alt: "Dosetori Wing" },
       { src: "icondrop/dosetori_bone.png", href: "../relic.html?item=dosetori_bone", alt: "Dosetori Bone" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Abyssal All Might.
+        </div>
+      </div>
+    `
   },
   {
     name: "Fuwagi",
@@ -335,7 +454,14 @@ export const DATA = [
       { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
       {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Fih
+        </div>
+      </div>
+    `
   },
   {
     name: "Ottobas",
@@ -347,7 +473,14 @@ export const DATA = [
     drops: [
       { src: "icondrop/raw_ottobas_meat.png", href: "../relic.html?item=ottobas_meat", alt: "Ottobas Meat" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          They're delicious.
+        </div>
+      </div>
+    `
   },
   {
     name: "Rohana",
@@ -410,14 +543,21 @@ export const DATA = [
     name: "Tesuchi",
     imga: "mob_png/tesuchi2d.png",
     imgb: "mob_gif/tesuchi.gif",
-    description: " The Tesuchi is a reptile creature live in dark forests. Their scales and tail are edible ( kind weird :D). Their scales can be use as an important ingredient for ancient template for forging<br> <br> Found in Layer 3",
+    description: " The Tesuchi is a reptile creature live in dark forests. Their scales and tail are edible ( kinda weird :D). Their scales can be use as an important ingredient for ancient template for forging<br> <br> Found in Layer 3",
     grade: "",
     details: "Drops:",
     drops: [
       { src: "icondrop/tesuchi_scales.png", href: "../relic.html?item=tesuchi_scales", alt: "Tesuchi Scales" },
       { src: "icondrop/tesuchi_tail.png", href: "../relic.html?item=tesuchi_tail", alt: "Tesuchi Tail" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          You will need them for the best armors.
+        </div>
+      </div>
+    `
   },
     {
     name: "Vinebinder",
@@ -519,7 +659,14 @@ export const DATA = [
       { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
       {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          They would stone you to death.
+        </div>
+      </div>
+    `
   },
   {
     name: "Neritantan",
@@ -571,7 +718,14 @@ export const DATA = [
       { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
       { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Pokey pokey.
+        </div>
+      </div>
+    `
   },
   /*LAYER 3*/
   {
@@ -625,7 +779,14 @@ export const DATA = [
       { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
       { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Flamethrower go brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.
+        </div>
+      </div>
+    `
   },
   {
     name: "Hisoishi",
@@ -664,7 +825,14 @@ export const DATA = [
       { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
       {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
     ],
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Where the fuk are these thing half the time.
+        </div>
+      </div>
+    `
   },
   {
     name: "Madokajack",
